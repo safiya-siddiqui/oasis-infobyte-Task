@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h4{
+    color: rgb(234, 149, 39);
+    position: relative;
+    left: 80px;
+    top: 180px;
+    font-size: 50px;
+   font-style: italic;
+}
+.icons{
+  
+  padding: 30px;
+ display: inline;
+   margin: 40px;
+   font-size: 20px;
+   position: relative;
+   top: 30px;
+
+  
+}
+
+.choose{
+    color: orange;
+    position: relative;
+    top: 200px;
+    left: 200px;
+    font-size: 25px;
+    font-style: italic;
+   
+}
+.choose::after{
+    content: "____________________________";
+    position: relative;
+    top: 20px;
+    right: 100px;
+}
+.tittle{
+    color: rgb(8, 6, 5);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 8px;
+    font-style: italic;
+    font-size: 20px;
+   
+}
+.team-container{
+   
+    width: 900px;
+    height: 300px;
+    margin-top: 290px;
+   position: relative;
+    margin-left: 100px;
+    display: grid;
+    justify-content: center;
+ padding-left: 80px;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(1,300px);
+}
+
+.team-card{
+    width: 250px;
+    height: 350px;
+  
+    margin-left: 190px;
+    margin-top: 50px;
+    background-color: rgb(231, 153, 56);
+    border-radius: 5px; 
+}
+ .team-card img{
+    width: 250px;
+    height: 250px;
+  
+}

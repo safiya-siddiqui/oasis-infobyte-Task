@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    color: aliceblue;
+}
+
+.service-container{
+    width: 950px;
+    height: 300px;
+    
+    position: relative;
+    left: 250px;
+    top: 520px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3 ,1fr);
+    grid-template-rows: repeat(2,300px);
+    grid-gap: 100px;
+}
+
+.service-card{
+    width: 300px;
+    height: 300px;
+    color: antiquewhite;
+    background-color: antiquewhite;
+    overflow: hidden;
+}
+.service-card img{
+    width: 300px;
+    height: 300px;
+}
+.intro-heading{
+    font-size: 30px;
+    position: relative;
+  
+ top:-4px
+
+}
+.intro{
+    background-color: gray;
+    box-sizing: border-box;
+    position: absolute;
+    width: 300px;
+    height: 60px;
+    bottom: 0px;
+   font-style: italic;
+background: rgb(19, 9, 9);
+opacity: 0.4;
+}
+.intro-para{
+visibility: hidden;
+}
+.service-card:hover{
+    cursor: pointer;
+}
+.service-card:hover .intro{
+    height: 220px;
+    bottom: 0px;
+    background: black;
+}
+
+.service-card:hover .intro-para{
+    opacity: 1;
+    visibility: visible;
+}
+.serve{
+    position: relative;
+    left: 70px;
+    top: 340px;
+    color: orange;
+    font-style: italic;
+}
+.intro-para{
+    padding: 20px;
+}
+.choose1{
+    color: orange;
+    position: relative;
+    left: 150px;
+    top: 360px;
+    font-size: 25px;
+    font-style: italic;
+}
+.choose1::after{
+    content: "____________________________";
+    position: relative;
+    top: 20px;
+    right: 300px;
+}
